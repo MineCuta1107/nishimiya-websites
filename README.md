@@ -1,2 +1,5 @@
-# nishimiya-website-v1
-Nishimiya website v1
+# Nishimiya Website
+
+## By Mine Cuta Support Bots and Mine Cuta <3
+
+### New Stars Trix Team
