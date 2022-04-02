@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07968c">
+  <meta property="og:title" content="Nishimiya">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nishimiya.minecuta.net">
+  <meta property="og:image" content="https://cdn.discordapp.com/attachments/575253529510543380/655013395140968448/Nishimiya_4.jpg">
+  <meta property="og:site_name" content="Nishimya">
+    <meta property="og:description" content="Hi, I am Nishimiya,bot with High Quality Music, Economy, Social, Fun, Moderation and always Online. Support me by voting bot for better bot....">
+	<title>Nishimiya 's Website</title>
+  <link id="favicon" rel="icon" href="https://cdn.discordapp.com/attachments/575253529510543380/655013395140968448/Nishimiya_4.jpg" type="image/x-icon">
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/575253529510543380/655013395140968448/Nishimiya_4.jpg" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a").on('click', function(event) {
+				if (this.hash !== "") {
+					event.preventDefault();
+					var hash = this.hash;
+
+					$('html, body').animate({
+						scrollTop: $(hash).offset().top
+					}, 1200, function() {
+						window.location.hash = hash;
+					});
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+		<nav class="container">
+			<div class="menu" id="myNavbar">
+				<a href="#" class="item">Home</a>
+				<a href="#about" class="item">About</a>
+				<a href="#commands" class="item">Commands</a>
+				<a href="https://discordapp.com/api/oauth2/authorize?client_id=513174081051557899&permissions=8&scope=bot" class="item">Invite Me</a>
+        <a href="https://top.gg/bot/513174081051557899/vote" class="item">Vote Me</a>
+        <a href="https://discord.gg/gKuXdHs" class="item">Join Support Server</a>
+        <a href="https://github.com/MineCuta1107/Nishimiya" class="item">Github</a>
+        <a href="https://nishimiya.minecuta.net/api.json" class="item">API</a>
+				<a href="javascript:void(0);" style="font-size:30px; background-color:#07968c; padding: 5px;" class="icon" onclick="myFunction()">&#9776;</a>
+			</div>
+		</nav>
+		<script type="text/javascript">
+				function myFunction() {
+					var x = document.getElementById("myNavbar");
+					if (x.className === "menu") {
+						x.className += " responsive";
+					} else {
+						x.className = "menu"
+					}
+				}
+			</script>	
+<section id="welcome">				
+	<div class="pimg1">
+		<div class="ptext">
+			<span class="border">
+				Welcome to Nishimiya's Website
+			</span>
+    </div>
+	</div>
+	</section>
+
+	<section id="about" class="section section-light">
+		<h2>About</h2>
+			<p>Hello My name is Shouko Nishimiya. I'm powerfull discord bots with High Quality, 24/7 Uptime. Shouko Nishimiya is the female protagonist of the Koe no Katachi series. She can hear various pitches of tones in the voices of other people.Nishimiya is observed to only wear one hearing aid. This may be a repercussion of Ishida's act of pulling out her other hearing aid, and permanently damaging her ear. </p>
+     <p><strong>● <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://discord.gg/gKuXdHs">Support Server!</a></strong></p>
+	</section>
+
+	<section id="commands" class="section section-dark">
+		<h2>Commands</h2> 
+		<div class="tab">
+      <button class="tablinks" onclick="openCommands(event, 'core')">Core</button>
+			<button class="tablinks" onclick="openCommands(event, 'admin')">Admin</button>
+      <button class="tablinks" onclick="openCommands(event, 'economy')">Economy</button>
+      <button class="tablinks" onclick="openCommands(event, 'fun')">Fun</button>
+       <button class="tablinks" onclick="openCommands(event, 'music')">Music</button>
+      <button class="tablinks" onclick="openCommands(event, 'ticket')">Ticket</button>
+      <button class="tablinks" onclick="openCommands(event, 'support')">Support Bot</button>
+      <button class="tablinks" onclick="openCommands(event, 'utility')">Utility</button>
+      <button class="tablinks" onclick="openCommands(event, 'close')">Close</button>
+		</div>
+    <div id="core" class="tabcontent">
+      <h3>Core Commands</h3>
+      Help : Showing all commands<br>
+      About : Showing About of bot<br>
+      Avatar : Show avatar user with embed<br>
+      Serverinfo : Showing info server/guild<br>
+      Stats : Show stats bot<br>
+      And More...<br>
+    </div>
+		<div id="admin" class="tabcontent">
+			<h3>Admin Commands</h3>
+        Ban : Ban members<br>
+        Purge : Purge message<br>
+        Warn : Warn member<br> 
+        Kick : Kick member<br>
+        Mute : Mute member<br>
+        Unmute : Unmute member<br>
+        Prefix : Set Custom prefix<br>
+        Welcome : Welcome message and image<br>
+        Goodbye : Goodbye message and image<br>
+        And More...<br>
+		</div>
+     <div id="economy" class="tabcontent">
+			<h3>Economy Commands</h3>
+     Balance : Seeyour balace<br>
+     Hunt : Get hunt everyday<br>
+     Daily : Get daily everyday<br>
+     Inventory : Check your inventory<br>
+     Sell : to sell item<br>
+     Transfer : Transfer your money to other users<br>
+     And More...<br>
+		</div> 
+    <div id="fun" class="tabcontent">
+			<h3>Fun Commands</h3>
+     8ball : QnA<br>
+     Kiss : kiss someone people<br>
+     Meme : See meme image<br>
+     Globalchat : Chat another server to server<br>
+     Slap : Slap other people
+     TTS : Text to speaks<br>
+     And More...<br>
+      </div> 
+      <div id="music" class="tabcontent">
+			<h3>Music Commands</h3>
+      Play : Play your song<br>
+      Quick Play : Quickplay youtube video<br>
+      Search : Search music<br>
+      Shuffle : Shuffle queue<br>
+      Skip : Skip music<br>
+      Pause : Paused music<br>
+      Resume : Resume music<br>
+      Queue : List of queue music<br>
+      Volume : Volume music<br>
+      Np : NowPlaying music<br>
+      Leave : stop all queue<br>
+      Spotify : Checking track info Spotify from a user<br>
+     And More...<br>
+		</div>
+		</div> 
+     <div id="ticket" class="tabcontent">
+			<h3>Ticket Commands</h3>
+    New : Create ticket channel<br>
+    Ticket log : Create ticket log<br>
+    Close : Close ticket channel<br>
+		</div> 
+    <div id="support" class="tabcontent">
+			<h3>Support Commands</h3>
+     Suggest : send your suggestion<br>
+     Invite : Showing invite link<br>
+     Bugreport : send your bugreport<br>
+     Support : support server<br>
+		</div> 
+    <div id="utility" class="tabcontent">
+			<h3>Utility Commands</h3>
+      Avatar : See someone avatar<br>
+      Fornite : Statistics Fortnite<br>
+      Game Steam : Search game or app in steam<br>
+      F : Press f to pay respect<br>
+      Weather : Look weather in location you provided<br>
+      Mcserver : Search for the Minecraft server<br>
+      Youtube : Search on Youtube<br>
+      And More...<br>
+		</div>
+    
+    <div id="close" class="tabcontent">
+    </div>
+
+		<script type="text/javascript">
+		function openCommands(evt, commandsName) {
+			var i, tabcontent, tablinks;
+
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+        		tabcontent[i].style.display = "none";
+    		}
+
+		    tablinks = document.getElementsByClassName("tablinks");
+		    for (i = 0; i < tabcontent.length; i++) {
+		        tablinks[i].classList.remove("active");
+		    }
+
+			document.getElementById(commandsName).style.display = "block";
+			evt.currentTarget.classList.add("active");
+		}	
+	</script>
+	</section>
+
+<section id="invite" class="section section-light">
+  <p><strong>● <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://discordapp.com/oauth2/authorize?client_id=513174081051557899&permissions=8&scope=bot">Invite Me!</a></strong></p>
+ <section id="supportserver" class="section section-light">
+  <p><strong>● <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://discord.gg/gKuXdHs">Support Server!</a></strong></p>
+  <section id="vote" class="section section-light">
+   <p><strong>● <a target="_blank" onclick="trackCampaignWebClick('', 'description');" rel="nofollow" href="https://top.gg/bot/513174081051557899/vote">Vote Me!</a></strong></p>
+		<h2></h2>
+			<p>
+			</p>
+	<section class="u-clearfix u-section-2" id="sec-3fe1">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-heading-font u-large-text u-text u-text-default u-text-variant u-text-1">&amp;</p>
+        <p class="u-heading-font u-large-text u-text u-text-default u-text-variant u-text-2"> ©&nbsp;2019 -&nbsp; 2022&nbsp;Nishimiya, All rights reserved</p>
+        <p class="u-heading-font u-large-text u-text u-text-default u-text-variant u-text-3">
+          <a class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1" href="https://nishimiya.minecuta.net/tos/tos.html" target="_blank">Terms</a>
+        </p>
+        <p class="u-heading-font u-large-text u-text u-text-default u-text-variant u-text-4">
+          <a href="https://nishimiya.minecuta.net/policies/policies.html" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-2" target="_blank">Privacy Policy</a>
+        </p>
+      </div>
+    </section>
+</body>
+</html>
